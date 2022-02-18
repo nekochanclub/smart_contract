@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract NEKOToken is ERC20 {
 
-    constructor() ERC20("NekoToken", "NT") {
+    constructor() ERC20("NekoChanFeedToken", "NCFT") {
         _mint(msg.sender, 3 * 10**7 * 10**18);
     }
 }
